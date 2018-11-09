@@ -22,7 +22,7 @@ sudo apt-get update -y
 #Move to specifit directory
 mkdir /home/$USER/.kosmosautomat
 cp -f * /home/$USER/.kosmosautomat
-pwd
+pwd = firstLocation
 cd /home/$USER/.kosmosautomat
 
 sudo rm -rf /tmp/crontab.mXzXMq/crontab/
@@ -31,7 +31,10 @@ sudo mv crontab /tmp/crontab.mXzXMq/
 
 # Schedules Script to run on sys using crontab
 # 11 11 ** 4  /home/$USER/.kosmosautomat/updateScript.sh
-
+echo "Deleting file back"
+cd firstLocation
+cd ..
+rm -rf Kosmosautomat 
 #Exitting the program 
 
 echo "Exiting the programmm ....."
