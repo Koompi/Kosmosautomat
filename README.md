@@ -5,7 +5,7 @@
 
 You can download Kosmosautomate by cloning the Git Repo and simply installing its requirements
 ```sh
-~ ❯❯❯ git clone https://github.com/Koompi/kosmosclup.git
+~ ❯❯❯ git clone https://github.com/Koompi/Kosmosautomate.git
 ~ ❯❯❯ cd Kosmosautomate
 ~ ❯❯❯ sh Kosmosautomate.sh
 ```
