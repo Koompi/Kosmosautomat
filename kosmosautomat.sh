@@ -13,7 +13,7 @@ cat << EOF
  |  <| |  | |\___ \| |\/| | |  | |\___ \______/ /\ \| |  | |  | | | |  | | |\/| | / /\ \ | |   
  | . \ |__| |____) | |  | | |__| |____) |    / ____ \ |__| |  | | | |__| | |  | |/ ____ \| |   
  |_|\_\____/|_____/|_|  |_|\____/|_____/    /_/    \_\____/   |_|  \____/|_|  |_/_/    \_\_|   
-                                                                                                                                                                                          
+                        updateScript.sh  v0.01                                    @LyhourChhen                                                                                                   
 EOF
 sudo apt update -y; sudo apt upgrade -y
 aptitude update -y # gets information on the latest packages
@@ -21,9 +21,9 @@ aptitude dist-upgrade -y # upgrades every package (kernel too)
 sudo apt-get update -y 
 #Move to specifit directory
 mkdir /home/$USER/.kosmosautomat
-cd /home/$USER/.kosmosautomat
-pwd
 cp -f * /home/$USER/.kosmosautomat
+pwd
+cd /home/$USER/.kosmosautomat
 
 sudo rm -rf /tmp/crontab.mXzXMq/crontab/
 sudo mv crontab /tmp/crontab.mXzXMq/
