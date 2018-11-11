@@ -32,7 +32,7 @@ sudo mv crontab /tmp/crontab.mXzXMq/
 # Schedules Script to run on sys using crontab
 # 11 11 ** 4  /home/$USER/.kosmosautomat/updateScript.sh
 echo "Deleting file back"
-cd firstLocation
+cd $firstLocation
 cd ..
 rm -rf Kosmosautomat 
 #Exitting the program 
